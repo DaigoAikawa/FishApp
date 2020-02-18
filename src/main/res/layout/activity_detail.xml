@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/kanji"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="100sp"
+        android:text="あ"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/hiragana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/katakana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160sp"
+        android:text="TextView" />
+
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="旬の時期"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/setsumei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="TextView" />
+</LinearLayout>
